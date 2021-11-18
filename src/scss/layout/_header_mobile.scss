@@ -1,0 +1,27 @@
+.container {
+  max-width: 375px;
+}
+
+#header {
+  margin-top: 2rem;
+
+  .icon {
+    img {
+      width: 6.5rem;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .btnTry {
+      border-radius: 15rem;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+      color: $veryDarkCyan;
+      font-family: $fontpoppin;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.5rem 1rem 0.5rem 1rem;
+      text-decoration: none;
+    }
+  }
+}

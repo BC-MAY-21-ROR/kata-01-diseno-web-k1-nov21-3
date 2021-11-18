@@ -1,0 +1,25 @@
+{
+  "name": "kata-01-diseno-web-k1-nov21-3",
+  "version": "1.0.0",
+  "description": "![BrightCoders Logo](images/logo-bc.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BC-MAY-21-ROR/kata-01-diseno-web-k1-nov21-3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BC-MAY-21-ROR/kata-01-diseno-web-k1-nov21-3/issues"
+  },
+  "homepage": "https://github.com/BC-MAY-21-ROR/kata-01-diseno-web-k1-nov21-3#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.43.4"
+  }
+}
