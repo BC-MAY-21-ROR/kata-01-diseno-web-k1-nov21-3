@@ -20,7 +20,7 @@
             margin-bottom: 2.5rem;
         }
 
-        .card-title{
+        .card-title {
             text-align: center;
             font-family: $fontpoppin;
             font-weight: 700;
@@ -37,6 +37,44 @@
             font-size: 14px;
             padding-left: 1rem;
             padding-right: 1rem;
+        }
+    }
+}
+
+.card-below {
+    margin-top: 5rem;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1.2rem;
+    z-index: 1;
+    
+    h2 {
+        text-align: center;
+        font-family: $fontpoppin;
+        color: $veryDarkCyan;
+        font-weight: 700;
+        font-size: 17px;
+    }
+
+    .startBtn {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        margin-bottom: 1rem;
+        padding-top: .8rem;
+        .btn2 {
+            text-align: center;
+            font-family: $fontopensans;
+            text-decoration: none;
+            background-color: $pink;
+            border-radius: 1.3rem;
+            color: #fff;
+            font-size: 0.6rem;
+            font-weight: 700;
+            padding: 0.9rem 3.2rem;
         }
     }
 }
