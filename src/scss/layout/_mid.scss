@@ -1,0 +1,46 @@
+.flex-content-pt1 {
+    .title-pt1 {
+        margin-bottom: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        h1 {
+            color: $veryDarkCyan;
+            font-family: $fontpoppin;
+            font-size: 1.5rem;
+            font-weight: 600;
+            line-height: 2.4rem;
+            text-align: center;
+
+        }
+    }
+    .p-pt1{
+        color: $veryDarkCyan;
+        font-family: $fontopensans;
+        font-weight: 400;
+        line-height: 1.5rem;
+        margin-bottom: 1rem;
+        margin-bottom: 2.5rem;
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+        text-align: center;
+    }
+    .startBtn{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        
+      a{
+        background-color: $pink;
+        border-radius: 1.3rem;
+        color: #fff;
+        font-family: $fontopensans;
+        font-size: .8rem;
+        font-weight: 700;
+        padding: .9rem 3.2rem;
+        text-align: center;
+        text-decoration: none;
+      }
+      
+    }
+}

@@ -349,6 +349,7 @@ body {
 
 #header {
   margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 #header .icon {
   display: flex;
@@ -367,5 +368,47 @@ body {
   font-weight: 600;
   padding: 0.5rem 1rem 0.5rem 1rem;
   text-decoration: none;
+}
+
+.flex-content-pt1 .title-pt1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 2rem;
+}
+.flex-content-pt1 .title-pt1 h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #00252e;
+  line-height: 2.4rem;
+}
+.flex-content-pt1 .p-pt1 {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  text-align: center;
+  line-height: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  color: #00252e;
+  margin-bottom: 2.5rem;
+}
+.flex-content-pt1 .startBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.flex-content-pt1 .startBtn a {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  padding: 0.9rem 3.2rem;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 1.3rem;
+  background-color: #ff52bf;
+  font-weight: 700;
+  font-size: 0.8em;
 }
 /*# sourceMappingURL=app.css.map */
