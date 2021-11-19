@@ -1,24 +1,25 @@
 .container {
-  max-width: 375px;
   margin-left: 1rem;
   margin-right: 1rem;
+  max-width: 375px;
 }
 
 #header {
-  z-index: 1;
-  //margin-top: 2rem;
-  padding-top: 2rem;
   margin-bottom: 5rem;
+  padding-top: 2rem;
+  z-index: 1;
 
   .icon {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
     img {
       width: 6.5rem;
     }
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 
     .btnTry {
+      background-color: white;
       border-radius: 15rem;
       box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
       color: $veryDarkCyan;
@@ -27,7 +28,6 @@
       font-weight: 600;
       padding: 0.5rem 1rem 0.5rem 1rem;
       text-decoration: none;
-      background-color: white;
     }
   }
 }

@@ -1,64 +1,61 @@
 .flex-content-pt1 {
-    .title-pt1 {
-        margin-bottom: 2rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        h1 {
-            color: $veryDarkCyan;
-            font-family: $fontpoppin;
-            font-size: 1.5rem;
-            font-weight: 600;
-            line-height: 2.4rem;
-            text-align: center;
+  .title-pt1 {
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    h1 {
+      color: $veryDarkCyan;
+      font-family: $fontpoppin;
+      font-size: 1.5rem;
+      font-weight: 600;
+      line-height: 2.4rem;
+      text-align: center;
+    }
+  }
+  .p-pt1 {
+    color: $veryDarkCyan;
+    font-family: $fontopensans;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    text-align: center;
+  }
+  .startBtn {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin: 0;
 
-        }
+    a {
+      background-color: $pink;
+      border-radius: 1.3rem;
+      color: #fff;
+      font-family: $fontopensans;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 0.9rem 3.2rem;
+      text-align: center;
+      text-decoration: none;
     }
-    .p-pt1{
-        color: $veryDarkCyan;
-        font-family: $fontopensans;
-        font-weight: 400;
-        line-height: 1.5rem;
-        margin-bottom: 1rem;
-        margin-bottom: 2.5rem;
-        padding-left: 1.2rem;
-        padding-right: 1.2rem;
-        text-align: center;
-    }
-    .startBtn{
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        margin: 0;
-        margin-bottom: 3rem;
-        
-      a{
-        background-color: $pink;
-        border-radius: 1.3rem;
-        color: #fff;
-        font-family: $fontopensans;
-        font-size: .8rem;
-        font-weight: 700;
-        padding: .9rem 3.2rem;
-        text-align: center;
-        text-decoration: none;
-      }
-      
-    }
+  }
 }
 
 .mid-part {
-    background-image: url('/images/bg-hero-mobile.svg');
-    background-size:auto;
-    background-repeat: no-repeat;
-    background-color: #d9f9ff70;
+  background-color: #d9f9ff70;
+  background-image: url("/images/bg-hero-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
 
-    .images-pt1 {
-        img {
-            display: block;
-            max-width: 19rem;
-            margin: auto;
-            padding-bottom: 2.5rem;
-        }
+  .images-pt1 {
+    img {
+      display: block;
+      margin: auto;
+      max-width: 19rem;
+      padding-bottom: 2.5rem;
     }
+  }
 }
-
