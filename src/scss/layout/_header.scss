@@ -1,9 +1,13 @@
 .container {
   max-width: 375px;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 #header {
-  margin-top: 2rem;
+  z-index: 1;
+  //margin-top: 2rem;
+  padding-top: 2rem;
   margin-bottom: 5rem;
 
   .icon {
@@ -23,6 +27,7 @@
       font-weight: 600;
       padding: 0.5rem 1rem 0.5rem 1rem;
       text-decoration: none;
+      background-color: white;
     }
   }
 }

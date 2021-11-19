@@ -29,6 +29,7 @@
         display: flex;
         justify-content: center;
         margin: 0;
+        margin-bottom: 3rem;
         
       a{
         background-color: $pink;
@@ -42,5 +43,21 @@
         text-decoration: none;
       }
       
+    }
+}
+
+.mid-part {
+    background-image: url('/images/bg-hero-mobile.svg');
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-color: #d9f9ff70;
+
+    .images-pt1 {
+        img {
+            display: block;
+            max-width: 19rem;
+            margin: auto;
+            padding-bottom: 2.5rem;
+        }
     }
 }
