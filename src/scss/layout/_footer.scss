@@ -87,3 +87,10 @@
    }
    color: white;
 }
+
+@media (min-width: 1440px) {
+   .footer-desktop{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+   }
+}

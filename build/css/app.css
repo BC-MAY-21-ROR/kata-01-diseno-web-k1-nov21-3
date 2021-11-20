@@ -479,6 +479,12 @@ p {
   text-decoration: none;
 }
 
+@media (min-width: 1440px) {
+  .footer-desktop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 .flex-content-pt1 .title-pt1 {
   margin-bottom: 2rem;
   padding-left: 1rem;
@@ -642,6 +648,43 @@ p {
   text-decoration: none;
 }
 
+@media (min-width: 1440px) {
+  .cards .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 1.2rem;
+    margin-left: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    padding-left: 7.5rem;
+  }
+  .cards .card .card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cards .card .card-info .card-title {
+    text-align: left;
+    font-size: 27px;
+  }
+  .cards .card .card-info p {
+    font-size: 19px;
+    text-align: left;
+    line-height: 2rem;
+    padding-left: 0;
+    padding-right: 0.9rem;
+  }
+  .cards .card img {
+    max-width: 25rem;
+  }
+  .cards .card:nth-child(odd) img {
+    order: 2;
+    padding-left: 9rem;
+  }
+  .cards .card:nth-child(2) img {
+    padding-right: 12.5rem;
+  }
+}
 .footer {
   background-color: #00252e;
   padding-top: 7.5rem;
@@ -722,5 +765,12 @@ p {
 .attribution a {
   color: #ffa6a6;
   text-decoration: none;
+}
+
+@media (min-width: 1440px) {
+  .footer-desktop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 /*# sourceMappingURL=app.css.map */

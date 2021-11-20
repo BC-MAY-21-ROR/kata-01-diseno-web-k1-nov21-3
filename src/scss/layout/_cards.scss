@@ -79,3 +79,56 @@
     }
   }
 }
+
+@media (min-width: 1440px) {
+  .cards {
+    .card {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-right: 1.2rem;
+      margin-left: 3rem;
+      padding-top: 0.5rem;
+      padding-bottom: 2rem;
+      padding-left: 7.5rem;
+
+      .card-info {
+        display: flex;
+        flex-direction: column;
+        //align-items: center;
+        justify-content: center;
+
+        .card-title {
+          text-align:left;
+          font-size: 27px;
+        }
+
+        p {
+          font-size: 19px;
+          text-align: left;
+          line-height: 2rem;
+          padding-left: 0;
+          padding-right: .9rem;
+          
+        }
+      }
+
+      img {
+        max-width: 25rem;
+      }
+
+      &:nth-child(odd) {
+        img {
+          order: 2;
+          padding-left: 9rem;
+        }
+      }
+
+      &:nth-child(2) {
+        img {
+          padding-right: 12.5rem;
+        }
+        
+      }
+    }
+  }
+}
