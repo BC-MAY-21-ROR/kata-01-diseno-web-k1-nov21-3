@@ -27,8 +27,9 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-bottom: 3rem;
-    margin: 0;
+    
+    margin: 0 0 3rem 0;
+    
 
     a {
       background-color: $pink;
@@ -58,4 +59,44 @@
       padding-bottom: 2.5rem;
     }
   }
+}
+
+@media (min-width: 1440px) {
+  .flex-content-pt1 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    .grid-content {
+
+      h1 {
+        text-align: start;
+        font-size: 2.5rem;
+        line-height: 4rem;
+        padding-top: 4rem;
+      }
+      .p-pt1 {
+        text-align: start;
+        font-size: 1.1rem;
+        p{
+          padding-right: 3rem;
+        }
+      }
+    }
+    .startBtn{
+      justify-content: left;
+      margin-left: 1.2rem;
+    }
+  }
+
+  .mid-part{
+    background-image: url("/images/bg-hero-desktop.svg");
+    
+    .images-pt1 {
+      img {
+        max-width: 45rem;
+        padding-bottom: 2.5rem;
+      }
+    }
+  }
+  
 }

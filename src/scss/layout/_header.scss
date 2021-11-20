@@ -31,3 +31,26 @@
     }
   }
 }
+
+@media (min-width: 1440px) {
+
+  .container {
+    
+    margin-left: 4rem;
+    margin-right: 4rem;
+    max-width: 1440px;
+  }
+  #header {
+    padding-top: 3rem;
+    .icon{
+      flex-direction: row;
+      img{
+        width:12rem;
+      }
+      .btnTry{
+        padding: .9rem 4rem;
+        font-size: .8rem;
+      }
+    }
+  }
+}

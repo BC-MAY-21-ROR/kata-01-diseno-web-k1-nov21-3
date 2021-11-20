@@ -376,6 +376,27 @@ p {
   text-decoration: none;
 }
 
+@media (min-width: 1440px) {
+  .container {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    max-width: 1440px;
+  }
+
+  #header {
+    padding-top: 3rem;
+  }
+  #header .icon {
+    flex-direction: row;
+  }
+  #header .icon img {
+    width: 12rem;
+  }
+  #header .icon .btnTry {
+    padding: 0.9rem 4rem;
+    font-size: 0.8rem;
+  }
+}
 .footer {
   background-color: #00252e;
   padding-top: 7.5rem;
@@ -486,8 +507,7 @@ p {
   align-items: center;
   display: flex;
   justify-content: center;
-  margin-bottom: 3rem;
-  margin: 0;
+  margin: 0 0 3rem 0;
 }
 .flex-content-pt1 .startBtn a {
   background-color: #ff52bf;
@@ -514,6 +534,37 @@ p {
   padding-bottom: 2.5rem;
 }
 
+@media (min-width: 1440px) {
+  .flex-content-pt1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .flex-content-pt1 .grid-content h1 {
+    text-align: start;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    padding-top: 4rem;
+  }
+  .flex-content-pt1 .grid-content .p-pt1 {
+    text-align: start;
+    font-size: 1.1rem;
+  }
+  .flex-content-pt1 .grid-content .p-pt1 p {
+    padding-right: 3rem;
+  }
+  .flex-content-pt1 .startBtn {
+    justify-content: left;
+    margin-left: 1.2rem;
+  }
+
+  .mid-part {
+    background-image: url("/images/bg-hero-desktop.svg");
+  }
+  .mid-part .images-pt1 img {
+    max-width: 45rem;
+    padding-bottom: 2.5rem;
+  }
+}
 .cards {
   display: flex;
   flex-direction: column;
