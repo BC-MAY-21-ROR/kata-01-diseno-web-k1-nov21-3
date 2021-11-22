@@ -684,6 +684,21 @@ p {
   .cards .card:nth-child(2) img {
     padding-right: 12.5rem;
   }
+
+  .card-below {
+    margin: 0 auto;
+    max-width: 45rem;
+    padding-bottom: 2rem;
+  }
+  .card-below h2 {
+    font-size: 21.5px;
+    letter-spacing: 0.3px;
+  }
+  .card-below .startBtn .btn2 {
+    padding: 1.2rem 5.2rem;
+    font-size: 0.8rem;
+    border-radius: 1.6rem;
+  }
 }
 .footer {
   background-color: #00252e;

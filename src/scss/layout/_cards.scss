@@ -131,4 +131,21 @@
       }
     }
   }
+
+  .card-below {
+    margin: 0 auto;
+    max-width: 45rem;
+    padding-bottom: 2rem;
+    h2{
+      font-size: 21.5px;
+      letter-spacing: .3px;
+    }
+    .startBtn{
+      .btn2{
+        padding: 1.2rem 5.2rem;
+        font-size: .8rem;
+        border-radius: 1.6rem;
+      }
+    }
+  }
 }
