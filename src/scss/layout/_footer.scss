@@ -1,6 +1,7 @@
 .footer {
    background-color: $veryDarkCyan;
    padding-top: 7.5rem;
+   padding-bottom: 3rem;
 
    .icon-footer {
       padding-bottom: 1.5rem;
@@ -32,6 +33,11 @@
       flex-direction: column;
       justify-content: space-between;
       margin-bottom: 2rem;
+
+      .footer-links-column {
+         display: flex;
+         flex-direction: column;
+      }
 
       a {
          color: white;
@@ -89,8 +95,30 @@
 }
 
 @media (min-width: 1440px) {
-   .footer-desktop{
+   .footer {
+      padding-top: 10rem;
+      .icon-footer {
+         padding-left: 3.5rem;
+
+         img {
+            width: 190px;
+            margin-bottom: 1.5rem;
+         }
+      }
+   }
+   .footer-desktop {
       display: grid;
-      grid-template-columns: repeat(3,1fr);
+      grid-template-columns: repeat(3, 1fr);
+      padding-left: 3.5rem;
+
+      .footer-links {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         padding-left: 3.5rem;
+         .footer-links-column {
+            display: flex;
+            flex-direction: column;
+         }
+      }
    }
 }

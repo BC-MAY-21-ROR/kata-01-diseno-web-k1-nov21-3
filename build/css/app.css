@@ -400,6 +400,7 @@ p {
 .footer {
   background-color: #00252e;
   padding-top: 7.5rem;
+  padding-bottom: 3rem;
 }
 .footer .icon-footer {
   padding-bottom: 1.5rem;
@@ -426,6 +427,10 @@ p {
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 2rem;
+}
+.footer .footer-links .footer-links-column {
+  display: flex;
+  flex-direction: column;
 }
 .footer .footer-links a {
   color: white;
@@ -480,9 +485,30 @@ p {
 }
 
 @media (min-width: 1440px) {
+  .footer {
+    padding-top: 10rem;
+  }
+  .footer .icon-footer {
+    padding-left: 3.5rem;
+  }
+  .footer .icon-footer img {
+    width: 190px;
+    margin-bottom: 1.5rem;
+  }
+
   .footer-desktop {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-left: 3.5rem;
+  }
+  .footer-desktop .footer-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 3.5rem;
+  }
+  .footer-desktop .footer-links .footer-links-column {
+    display: flex;
+    flex-direction: column;
   }
 }
 .flex-content-pt1 .title-pt1 {
@@ -696,13 +722,14 @@ p {
   }
   .card-below .startBtn .btn2 {
     padding: 1.2rem 5.2rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     border-radius: 1.6rem;
   }
 }
 .footer {
   background-color: #00252e;
   padding-top: 7.5rem;
+  padding-bottom: 3rem;
 }
 .footer .icon-footer {
   padding-bottom: 1.5rem;
@@ -729,6 +756,10 @@ p {
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 2rem;
+}
+.footer .footer-links .footer-links-column {
+  display: flex;
+  flex-direction: column;
 }
 .footer .footer-links a {
   color: white;
@@ -783,9 +814,30 @@ p {
 }
 
 @media (min-width: 1440px) {
+  .footer {
+    padding-top: 10rem;
+  }
+  .footer .icon-footer {
+    padding-left: 3.5rem;
+  }
+  .footer .icon-footer img {
+    width: 190px;
+    margin-bottom: 1.5rem;
+  }
+
   .footer-desktop {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-left: 3.5rem;
+  }
+  .footer-desktop .footer-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 3.5rem;
+  }
+  .footer-desktop .footer-links .footer-links-column {
+    display: flex;
+    flex-direction: column;
   }
 }
 /*# sourceMappingURL=app.css.map */
